@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Form from './components/Form';
+import FormikNewForm from './components/Form';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>hello world</div>
-        <Form />
+        <div>Login Form</div>
+        <FormikNewForm />
       </header>
     </div>
   );
